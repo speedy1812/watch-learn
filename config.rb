@@ -9,6 +9,9 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+activate :directory_indexes
+page "/404.html", directory_index: false
+
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
 
