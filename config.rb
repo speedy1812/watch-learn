@@ -2,6 +2,10 @@
 # Page options, layouts, aliases and proxies
 ###
 
+activate :blog do |blog|
+
+end
+
 # Per-page layout changes:
 #
 # With no layout
